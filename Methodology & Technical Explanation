@@ -1,0 +1,49 @@
+# Methodology & Technical Explanation
+
+## Moving Averages
+
+### Why We Use Them
+Moving averages smooth out daily price noise to reveal true trend.
+
+### Calculation
+20-day MA = Sum of last 20 closing prices / 20
+50-day MA = Sum of last 50 closing prices / 50
+
+### Interpretation
+- Price above MA = Uptrend
+- Price below MA = Downtrend
+- MA20 above MA50 = Strong uptrend
+
+## RSI (Relative Strength Index)
+
+### Formula
+RSI = 100 - (100 / (1 + RS))
+Where RS = Average Gain / Average Loss over 14 days
+
+### Meaning
+- Values 0-100
+- Above 70 = Overbought (sell signal)
+- Below 30 = Oversold (buy signal)
+- 30-70 = Neutral
+
+## Volatility
+
+### Formula
+Volatility = Standard Deviation of daily returns
+
+### Interpretation
+Shows how much price jumps around:
+- Low (<2%) = Stable, predictable
+- High (>4%) = Risky, unpredictable
+
+## Support & Resistance
+
+### Support Level
+Lowest price in recent period (price bounces up from here)
+
+### Resistance Level
+Highest price in recent period (price bounces down from here)
+
+### Trading Use
+- Buy near support (floor)
+- Sell near resistance (ceiling)
